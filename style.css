@@ -1,0 +1,441 @@
+body {
+    font-family: 'Gilroy', bold;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+
+.header {
+   
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 1px solid black;
+    padding: 24px 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-bottom: 48px;
+}
+
+
+
+.header__items {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    color: #828282;
+    
+
+    
+}
+.headerimg{
+    display: none;
+}
+
+.header__item:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+.denis {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    
+}
+
+.denis__title {
+    display: flex;
+    font-weight: bolder;
+    font-size: calc(1rem + 1vw);
+   
+    justify-content: flex-end;
+    flex-direction: column;
+    float: left;
+}
+
+.denis__subtitle {
+    display: flex;
+    font-weight: 500;
+    font-size: calc(0.5rem + 1vw);
+    margin-left: calc(1rem + 20vw);
+ 
+   
+    flex-flow: column;
+}
+.denisimg {
+    padding-top: 40px;
+
+}
+
+.about{
+    margin-top: 100px;
+    padding-top:100px;
+    background-color: #F6F6F6;
+
+}
+
+.about__me {
+    display: flex;
+    font-size: 34px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.about__denis1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 18px;
+}
+.about__denis2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.about__denis3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+
+}
+
+.skills {
+    margin-top: 100px;
+
+}
+
+.skills__text{
+    display: flex;
+    font-size: 34px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.skills__work{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    padding-top: 69px;
+}
+
+.kartinki{
+   margin:auto;
+   max-width: 1145px;
+
+}
+
+.img{
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem 20rem;
+
+}
+.kartext{
+    max-width: 206px;
+    margin-top: 87px;
+}
+.name2{
+    margin-top: -1rem;
+    text-align: center;
+    font-size: 14px;
+    color: #828282;
+}
+.name{
+    text-align: center;
+    font-size: 14px;
+    color: #828282;
+}
+.wilson{
+    display: flex;
+    justify-content: center;
+}
+.wilson2{
+    margin-top: 40px;
+}
+
+.portfolio{
+    margin: auto;
+    max-width: 1145px;
+
+}
+
+
+.portext{
+margin-top: 223px;
+display: flex;
+justify-content: center;
+font-size: 34px;
+font-weight: bold;
+}
+
+.portimg{
+display: flex;
+justify-content: center;
+padding-top: 47px;
+}
+
+.fashion{
+    max-width: 1145px;
+    margin: auto
+
+}
+
+.fashtext{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.fashimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 99px;
+
+}
+
+.reebok{
+    max-width: 1145px;
+    margin: auto;
+}
+
+.reetext{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.reeimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 99px;
+
+}
+.brauntext{
+    padding-top: 46px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.contacs{
+max-width: 1145px;
+margin: auto;
+}
+
+.zagolovok{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 210px;
+
+}
+.context{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.str1{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.str2{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: -1rem;
+}
+.ovaltext{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+
+.send{
+    justify-self: flex-end;
+    background-color: black;
+    margin-top:auto;
+    width: 180px;
+    border-radius: 25px;
+    border-color: #FEFAE000;
+    height: 42px;
+    color: #F6F6F6;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+.send:hover{
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
+
+.kaneki{
+    
+    margin: auto;
+ 
+  
+}
+.prikol{
+    margin: auto;
+    margin-top: 92px;
+    display: grid;
+    grid-template-columns: 7rem 7rem 7rem 7rem;
+    column-gap:6rem
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+    
+
+}
+.slova{
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+
+}
+.odin{
+    padding-top: 46px;
+}
+.dva{
+    margin-top: -1rem;
+    margin-bottom: 123px;
+    
+}
+
+
+@media (max-width:850px) {
+    .container{
+        width: 100%;
+    }
+    .denisimg{
+        width: 100%;
+    }
+    .kartinki{
+        width: 100%;
+    }
+    .img{
+        display: flex;
+      
+        justify-content: center;
+        
+    }
+        
+
+    .wilson2{
+        width: 90%;
+        height: 10%;
+    }
+    .kartext{
+        width: 100%;
+    }
+    .portimg{
+        width: 100%;
+        height: 100%;
+    }
+    .fashimg{
+        width: 100%;
+        height: 100%;
+    }
+    .reeimg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .kaneki  {
+        width: 100%;
+    }
+    .prikol{
+        grid-template-columns: 6rem 6rem 6rem 6rem;
+    }
+    
+}
+
+@media (max-width:450px) {
+    .container{
+        width: 100%;
+    }
+    .denisimg{
+        width: 100%;
+    }
+    .kartinki{
+        width: 100%;
+    }
+    .img{
+        display: grid;
+        grid-template-columns: 20fr 20fr;
+        
+
+    }
+    .wilson2{
+        width: 90%;
+        height: 10%;
+    }
+    .kartext{
+        width: 100%;
+    }
+    .portimg{
+        width: 100%;
+        height: 100%;
+    }
+    .fashimg{
+        width: 100%;
+        height: 100%;
+    }
+    .reeimg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .kaneki  {
+        width: 100%;
+    }
+    .prikol{
+        grid-template-columns: 6rem 6rem 6rem 6rem;
+    }
+    
+    .headerimg{
+        display: block;
+    }
+    .headertxt{
+        display: none;
+    }
+    .headerimg:hover{
+        filter: invert(50%);
+        cursor: pointer;
+    }
+
+}
+
